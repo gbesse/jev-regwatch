@@ -1,0 +1,6 @@
+# Purpose: Exclude dependencies and local source/artifact history.
+node_modules/
+.local/
+local-data/
+dist/
+.jev-cache*
