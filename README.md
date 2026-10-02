@@ -19,6 +19,10 @@ Jurisdiction, date, source allowlist and content-hash seen gates run before infe
 ## Boundaries
 Directory/URL scheduling, persistent histories, CLI and full fan-out request transport remain unwired in this alpha. The feed parser is intentionally small and skips malformed empty entries. This is a triage aid; people review alerts. The number to watch is missed impact, not alerts avoided. No live benchmark is claimed.
 
+## Shareable demo report
+
+Run `npm run demo:report` to capture this repository’s bundled example as one JSON object with the project purpose, version and complete demo output. The command fails if the demo fails, so the report is useful when sharing a reproducible first look or reporting unexpected behavior. The bundled demo’s data and safety boundaries still apply.
+
 ## Validation
 Run `npm run check && npm run typecheck && npm test && npm run demo`; CI uses Node 22 and 24.
 
